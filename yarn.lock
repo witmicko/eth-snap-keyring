@@ -1072,7 +1072,7 @@ __metadata:
     "@metamask/eslint-config-nodejs": ^12.1.0
     "@metamask/eslint-config-typescript": ^12.1.0
     "@metamask/eth-sig-util": ^7.0.3
-    "@metamask/keyring-api": ^8.1.0
+    "@metamask/keyring-api": ^9.0.0
     "@metamask/snaps-controllers": ^9.6.0
     "@metamask/snaps-sdk": ^6.4.0
     "@metamask/snaps-utils": ^7.8.0
@@ -1153,19 +1153,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/keyring-api@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "@metamask/keyring-api@npm:8.1.0"
+"@metamask/keyring-api@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "@metamask/keyring-api@npm:9.0.0"
   dependencies:
-    "@metamask/snaps-sdk": ^6.1.0
+    "@metamask/snaps-sdk": ^6.7.0
     "@metamask/superstruct": ^3.1.0
-    "@metamask/utils": ^9.1.0
+    "@metamask/utils": ^9.2.1
     "@types/uuid": ^9.0.8
     bech32: ^2.0.0
     uuid: ^9.0.1
+    webextension-polyfill: ^0.12.0
   peerDependencies:
-    "@metamask/providers": ">=15 <18"
-  checksum: 12be90330432f9330f921f91fa7c7898b69c3f053395891311b8ac03b7c7b7ad849c1c7d9d058f1639dc2a2151bdace83deafa0e561a5dbf00ab7b8d018cf585
+    "@metamask/providers": ^17.2.0
+  checksum: 205cbe876ac034b8f1dd94c9795360cd33b6f0df4ec5a1ce32127c2aa6a19cb878429c1977c9dbb46b5b8388011e4a13d9cb8a62724b38b1bf2202a745b152a3
   languageName: node
   linkType: hard
 
@@ -1371,6 +1372,19 @@ __metadata:
     "@metamask/superstruct": ^3.1.0
     "@metamask/utils": ^9.2.1
   checksum: 22f198c649ffd7b4a6cb11bb0d214142be48274d7602ba239acd4c638c364658a1f6a99066863c55df1785c37fa12030f86e6554713f6af2a91e7b0a28198fce
+  languageName: node
+  linkType: hard
+
+"@metamask/snaps-sdk@npm:^6.7.0":
+  version: 6.9.0
+  resolution: "@metamask/snaps-sdk@npm:6.9.0"
+  dependencies:
+    "@metamask/key-tree": ^9.1.2
+    "@metamask/providers": ^17.1.2
+    "@metamask/rpc-errors": ^6.3.1
+    "@metamask/superstruct": ^3.1.0
+    "@metamask/utils": ^9.2.1
+  checksum: 73451155b2f144e8bcde1e00ccb79ca48a3317ecc02b6cf696c0f734b9b6909493025cff7209c910b6207043b5062254668005d17e334cd2b47545610116beeb
   languageName: node
   linkType: hard
 
@@ -7428,6 +7442,13 @@ __metadata:
   dependencies:
     makeerror: 1.0.12
   checksum: ad7a257ea1e662e57ef2e018f97b3c02a7240ad5093c392186ce0bcf1f1a60bbadd520d073b9beb921ed99f64f065efb63dfc8eec689a80e569f93c1c5d5e16c
+  languageName: node
+  linkType: hard
+
+"webextension-polyfill@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "webextension-polyfill@npm:0.12.0"
+  checksum: fc2166c8c9d3f32d7742727394092ff1a1eb19cbc4e5a73066d57f9bff1684e38342b90fabd23981e7295e904c536e8509552a64e989d217dae5de6ddca73532
   languageName: node
   linkType: hard
 
