@@ -1046,9 +1046,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/eth-sig-util@npm:^7.0.3":
-  version: 7.0.3
-  resolution: "@metamask/eth-sig-util@npm:7.0.3"
+"@metamask/eth-sig-util@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "@metamask/eth-sig-util@npm:8.0.0"
   dependencies:
     "@ethereumjs/util": ^8.1.0
     "@metamask/abi-utils": ^2.0.4
@@ -1056,7 +1056,7 @@ __metadata:
     "@scure/base": ~1.1.3
     ethereum-cryptography: ^2.1.2
     tweetnacl: ^1.0.3
-  checksum: fd4d0710857525815b241ddecce64988dd12303a9638577429baf180c62cf9cef9403aed01bc046b4860b332d455604c84e4b2a9b5997db16f444125b4b39398
+  checksum: ce78cb8e65211b907a010bcc4f0ee6775f42db1eed4c9cf3385e430123382a70b7d0ff53fd53577ea4dba7c7ac31e0b47fa1f2079613e1d75e89d7089693f4d4
   languageName: node
   linkType: hard
 
@@ -1071,7 +1071,7 @@ __metadata:
     "@metamask/eslint-config-jest": ^12.1.0
     "@metamask/eslint-config-nodejs": ^12.1.0
     "@metamask/eslint-config-typescript": ^12.1.0
-    "@metamask/eth-sig-util": ^7.0.3
+    "@metamask/eth-sig-util": ^8.0.0
     "@metamask/keyring-api": ^8.1.0
     "@metamask/snaps-controllers": ^9.6.0
     "@metamask/snaps-sdk": ^6.4.0
